@@ -77,14 +77,14 @@ module.exports = {
         },
       },
     },
-    // {
-    //   resolve: `gatsby-plugin-google-gtag`,
-    //   options: {
-    //     trackingIds: ["G-67NH5YELGY", "GTM-MVZL5D4"],
-    //     pluginConfig: {
-    //       head: true,
-    //     },
-    //   },
-    // },
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: ["G-61KC9KSVQX"],
+        pluginConfig: {
+          head: true,
+        },
+      },
+    },
   ],
 };
