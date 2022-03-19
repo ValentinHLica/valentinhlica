@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "@utils/*": ["utils/*"],
+      "@interface/*": ["interface/*"],
+      "@components/*": ["components/*"],
+      "@config/*": ["config/*"],
+      "@styles/*": ["styles/*"],
+      "@ui": ["components/UI/index.tsx"],
+      "@data/*": ["data/*"],
+      "@content/*": ["content/*"],
+      "@icon": ["components/CustomIcons.tsx"]
+    }
+  }
+}
