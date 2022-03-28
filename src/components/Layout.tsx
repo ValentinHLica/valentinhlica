@@ -1,7 +1,20 @@
 import React from "react";
 
-const Layout: React.FC = () => {
-  return <main>Layout</main>;
+import Header from "@components/Header";
+import Footer from "@components/Footer";
+
+import "@styles/main.scss";
+
+const Layout: React.FC = ({ children }) => {
+  return (
+    <>
+      <Header />
+
+      <main>{children}</main>
+
+      <Footer />
+    </>
+  );
 };
 
 export default Layout;
