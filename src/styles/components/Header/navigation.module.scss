@@ -1,0 +1,26 @@
+.navigation {
+  ul {
+    display: flex;
+    align-items: center;
+
+    li {
+      margin-right: 10px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      &.current_page {
+        a {
+          font-weight: 600;
+        }
+      }
+
+      a {
+        display: inline-block;
+        padding: 5px;
+        color: var(--gray-dark);
+      }
+    }
+  }
+}
