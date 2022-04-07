@@ -1,0 +1,16 @@
+.info {
+  max-width: 80%;
+
+  .title {
+    font-size: 3em;
+  }
+
+  .description {
+    margin-bottom: 1em;
+    color: var(--gray-dark);
+  }
+
+  .more {
+    color: var(--gray-dark);
+  }
+}

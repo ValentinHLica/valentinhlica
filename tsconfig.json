@@ -6,20 +6,17 @@
     "module": "esnext",
     "moduleResolution": "node",
     "esModuleInterop": true,
+    "resolveJsonModule": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "skipLibCheck": true,
     "baseUrl": "src",
     "paths": {
-      "@utils/*": ["utils/*"],
-      "@interface/*": ["interface/*"],
       "@components/*": ["components/*"],
-      "@config/*": ["config/*"],
       "@styles/*": ["styles/*"],
       "@ui": ["components/UI/index.tsx"],
-      "@data/*": ["data/*"],
-      "@content/*": ["content/*"],
-      "@icon": ["components/CustomIcons.tsx"]
+      "@icon": ["components/CustomIcons.tsx"],
+      "@data": ["data/*"]
     }
   },
   "include": ["./src/**/*"]

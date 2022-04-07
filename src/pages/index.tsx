@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "gatsby";
 
 import Layout from "@components/Layout";
 import Seo from "@components/Seo";
@@ -10,7 +11,19 @@ const HomePage: React.FC = () => {
     <Layout>
       <Seo />
 
-      <section>HomePage</section>
+      <section className={styles.info}>
+        <h1 className={styles.title}>Valentin Lica</h1>
+
+        <p className={styles.description}>
+          Writer, Speaker, Developer Advocate. I help devtools cross the chasm
+          (React + TypeScript, Svelte, Netlify, now Temporal) and help
+          developers Learn in Public!
+        </p>
+
+        <Link to="/about" className={styles.more}>
+          More on About Page
+        </Link>
+      </section>
     </Layout>
   );
 };
