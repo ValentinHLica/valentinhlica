@@ -5,14 +5,14 @@
   },
   {
     "title": "About",
-    "url": "/about"
+    "url": "#about"
   },
   {
-    "title": "Blog",
-    "url": "/blog"
+    "title": "Projects",
+    "url": "#projects"
   },
   {
-    "title": "Subscribe",
-    "url": "/subscribe"
+    "title": "Resume",
+    "url": "https://drive.google.com/file/d/1uyIOBnsMBbYT7nXenWi-5WfvURYdDzZR/view"
   }
 ]

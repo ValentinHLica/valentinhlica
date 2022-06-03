@@ -25,7 +25,12 @@ const Navigation: React.FC = () => {
               key={index}
               className={pathname === url ? styles.current_page : ""}
             >
-              <Link to={url}>{title}</Link>
+              <Link
+                to={url}
+                target={url.startsWith("http") ? "_blank" : "_self"}
+              >
+                {title}
+              </Link>
             </li>
           );
         })}

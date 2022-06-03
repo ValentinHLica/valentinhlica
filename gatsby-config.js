@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: "Valentin Lica",
     description: "Portfolio Website",
-    siteUrl: "https://wwww.valentinlica.ml/",
+    siteUrl: "https://valentinhlica.pages.dev/",
     image: "/logo.png",
   },
   plugins: [
@@ -10,19 +10,6 @@ module.exports = {
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
-    "gatsby-plugin-sitemap",
-    // {
-    //   resolve: "gatsby-transformer-yaml",
-    //   options: {
-    //     typeName: ({ node }) => {
-    //       const name = node.sourceInstanceName;
-    //       if (name === `content`) {
-    //         return `Content`;
-    //       }
-    //       return name;
-    //     },
-    //   },
-    // },
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
@@ -47,17 +34,10 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        name: `posts`,
-        path: `./src/posts`,
+        name: `projects`,
+        path: `./src/projects`,
       },
     },
-    // {
-    //   resolve: "gatsby-source-filesystem",
-    //   options: {
-    //     path: `./src/content`,
-    //     name: "content",
-    //   },
-    // },
     {
       resolve: `gatsby-plugin-alias-imports`,
       options: {
@@ -70,14 +50,5 @@ module.exports = {
         },
       },
     },
-    // {
-    //   resolve: `gatsby-plugin-google-gtag`,
-    //   options: {
-    //     trackingIds: ["G-61KC9KSVQX"],
-    //     pluginConfig: {
-    //       head: true,
-    //     },
-    //   },
-    // },
   ],
 };
