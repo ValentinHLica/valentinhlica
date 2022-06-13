@@ -1,6 +1,6 @@
 # Hi, I'm Valentin 👋
 
-Passionate Full-Stack Developer with a particular focus on ReactJS, NodeJS. You can find me creating creating Open Source apps here on Github, and frequenting new coffee shops in Albania.
+Passionate Full-Stack Developer with a particular focus on ReactJS, NodeJS. You can find me creating Open Source apps here on Github, and frequenting new coffee shops in Albania.
 
 - 🔭 Currently working on all things JavaScript related
 - 🌱 Learning anything I can get my hands on!
