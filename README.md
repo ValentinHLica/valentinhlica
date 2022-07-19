@@ -17,6 +17,7 @@ Passionate Full-Stack Developer with a particular focus on ReactJS, NodeJS. You 
 ![HTML](https://img.shields.io/badge/HTML-DD4B24?style=flat&logo=html5&logoColor=white)
 ![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat&logo=graphql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-13aa52?style=flat&logo=mongodb&logoColor=white)
+![Jest](https://img.shields.io/badge/Jest-007ACC?style=flat&logo=jest&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 ![Github](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github)
 ![Linux](https://img.shields.io/badge/Linux-FF6C0F?style=flat&logo=linux&logoColor=white)
